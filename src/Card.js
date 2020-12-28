@@ -1,11 +1,11 @@
 import React from 'react'
 import { GoVerified } from 'react-icons/go';
 
-function Card({img1,imgs1,h1,hs1,v1,img2,imgs2,h2,hs2,v2,img3,imgs3,h3,hs3,v3,img4,imgs4,h4,hs4,v4}) {
+function Card({img1,imgs1,h1,hs1,v1,l1,img2,imgs2,h2,hs2,v2,l2,img3,imgs3,h3,hs3,v3,l3,img4,imgs4,h4,hs4,v4,l4}) {
     return (
-        <div className="w-full h-64 flex mb-8">
+        <div className="w-full h-64 flex mb-8 lg:mt-20">
             <div className="relative w-3/12 ml-8 mt-8 h-64">
-                <a href="https://www.youtube.com/watch?v=TSUv8ZxhjYw"><img src={img1} alt=""/></a>
+                <a href={l1}><img src={img1} alt=""/></a>
                 <div className="flex">
                 <div className="bg-red-400 rounded-full w-9 h-9 mt-2">
                 <a href="/"><img className="rounded-full w-9 h-9" src={imgs1} alt=""/></a>
@@ -17,7 +17,7 @@ function Card({img1,imgs1,h1,hs1,v1,img2,imgs2,h2,hs2,v2,img3,imgs3,h3,hs3,v3,im
            </div>
 
            <div className="relative w-3/12 ml-4 mt-8 h-64">
-                <a href="https://www.youtube.com/watch?v=TSUv8ZxhjYw"><img src={img2} alt=""/></a>
+                <a href={l2}><img src={img2} alt=""/></a>
                 <div className="flex">
                 <div className="bg-red-400 rounded-full w-9 h-9 mt-2">
                 <a href="/"><img className="rounded-full w-9 h-9" src={imgs2} alt=""/></a>
@@ -29,7 +29,7 @@ function Card({img1,imgs1,h1,hs1,v1,img2,imgs2,h2,hs2,v2,img3,imgs3,h3,hs3,v3,im
            </div>
 
            <div className="relative w-3/12 ml-4 mt-8 h-64">
-           <a href="https://www.youtube.com/watch?v=TSUv8ZxhjYw"><img src={img3} alt=""/></a>
+           <a href={l3}><img src={img3} alt=""/></a>
                 <div className="flex">
                 <div className="bg-red-400 rounded-full w-9 h-9 mt-2">
                 <a href="/"><img className="rounded-full w-9 h-9" src={imgs3} alt=""/></a>
@@ -41,7 +41,7 @@ function Card({img1,imgs1,h1,hs1,v1,img2,imgs2,h2,hs2,v2,img3,imgs3,h3,hs3,v3,im
            </div>
 
            <div className="relative w-3/12 ml-4 mt-8 h-64 mr-24">
-           <a href="https://www.youtube.com/watch?v=TSUv8ZxhjYw"><img src={img4} alt=""/></a>
+           <a href={l4}><img src={img4} alt=""/></a>
                 <div className="flex">
                 <div className="bg-red-400 rounded-full w-9 h-9 mt-2">
                 <a href="/"><img className="rounded-full w-9 h-9" src={imgs4} alt=""/></a>

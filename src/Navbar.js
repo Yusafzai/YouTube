@@ -1,6 +1,5 @@
 import React from 'react';
 import Logo from './images/brand.png';
-import Foto from './images/Bob.jpg';
 import { BsFillBellFill } from 'react-icons/bs';
 import { MdVideoCall } from 'react-icons/md';
 import { MdApps } from 'react-icons/md';
@@ -30,7 +29,7 @@ function Navbar() {
 
 
           <div className="right-6 top-2 m-1 mr-2 w-10 h-10 absolute rounded-full bg-gray-500 text-xl text-white">
-          <a href=""><img src="http://source.unsplash.com/100x100/?girl" className="rounded-full" /></a>
+          <a href=""><img src="http://source.unsplash.com/100x100/?face" className="rounded-full" /></a>
           </div>
         
     

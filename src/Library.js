@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from './Card';
-import Laga from './images/icon.jpg';
 
 function Library() {
     return (

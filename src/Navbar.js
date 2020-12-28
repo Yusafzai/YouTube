@@ -10,7 +10,7 @@ function Navbar() {
         <div className="nav w-full h-16 flex px-4 bg-gray-50 fixed z-40">
         
         <div className="ml-2 relative top-4">
-         <a href=""><VscMenu className="text-xl" /></a>
+         <a href="/"><VscMenu className="text-xl" /></a>
          </div>
 
         <div className="relative w-24 h-8 ml-6">
@@ -22,14 +22,14 @@ function Navbar() {
          </div>
                
           <div className="flex absolute right-28 top-5">
-            <a href=""><MdVideoCall className="w-8 h-6 text-gray-600" /></a>
-            <a href=""><MdApps className="w-8 h-6 ml-6 text-gray-600" /></a>
-            <a href=""><BsFillBellFill className="w-8 h-5 relative top-0.5 ml-6 text-gray-600" /></a>
+            <a href="/"><MdVideoCall className="w-8 h-6 text-gray-600" /></a>
+            <a href="/"><MdApps className="w-8 h-6 ml-6 text-gray-600" /></a>
+            <a href="/"><BsFillBellFill className="w-8 h-5 relative top-0.5 ml-6 text-gray-600" /></a>
             </div>
 
 
           <div className="right-6 top-2 m-1 mr-2 w-10 h-10 absolute rounded-full bg-gray-500 text-xl text-white">
-          <a href=""><img src="http://source.unsplash.com/100x100/?face" className="rounded-full" /></a>
+          <a href="/"><img src="http://source.unsplash.com/100x100/?face" alt="image" className="rounded-full" /></a>
           </div>
         
     

@@ -11,28 +11,28 @@ function Sidebar() {
             
             <NavLink to="/">
             <div className="h-16 -top-4 relative hover:bg-gray-200">
-            <a className="" ><AiFillHome className="ml-7 mt-8 top-4 relative text-2xl  text-gray-500 hover:text-red-500" /></a>
+            <a href="/"><AiFillHome className="ml-7 mt-8 top-4 relative text-2xl  text-gray-500 hover:text-red-500" /></a>
             <h1 className="relative top-5 text-xs left-6">Home</h1>
             </div>
             </NavLink>
 
             <NavLink to="/1">
             <div className="h-16 -top-12 relative hover:bg-gray-200">
-            <a  className="" ><AiFillFire className="ml-7 mt-8 top-4 relative text-2xl  text-gray-500 hover:text-red-500" /></a>
+            <a  href="/" ><AiFillFire className="ml-7 mt-8 top-4 relative text-2xl  text-gray-500 hover:text-red-500" /></a>
             <h1 className="relative top-5 text-xs left-4">Trending</h1>
             </div>
             </NavLink>
 
             <NavLink to="/2">
             <div className="h-16 -top-20 relative hover:bg-gray-200">
-            <a  className="" ><MdSubscriptions className="ml-7 mt-8 top-4 relative text-2xl text-gray-500 hover:text-red-500" /></a>
+            <a  href="/" ><MdSubscriptions className="ml-7 mt-8 top-4 relative text-2xl text-gray-500 hover:text-red-500" /></a>
             <h1 className="relative top-5 text-xs left-1">Subscriptions</h1>
             </div>
             </NavLink>
 
             <NavLink to="/3">
             <div className="h-16 -top-28 relative hover:bg-gray-200">
-            <a className="" ><MdVideoLibrary className="ml-7 mt-8 top-4 relative text-2xl text-gray-500 hover:text-red-500" /></a>
+            <a href="/" ><MdVideoLibrary className="ml-7 mt-8 top-4 relative text-2xl text-gray-500 hover:text-red-500" /></a>
             <h1 className="relative top-5 text-xs left-5">Library</h1>
             </div>
             </NavLink>

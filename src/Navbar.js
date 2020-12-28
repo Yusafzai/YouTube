@@ -29,7 +29,7 @@ function Navbar() {
 
 
           <div className="right-6 top-2 m-1 mr-2 w-10 h-10 absolute rounded-full bg-gray-500 text-xl text-white">
-          <a href="/"><img src="http://source.unsplash.com/100x100/?face" alt="image" className="rounded-full" /></a>
+          <a href="/"><img src="http://source.unsplash.com/100x100/?face" alt="profiler" className="rounded-full" /></a>
           </div>
         
     

@@ -13,16 +13,16 @@ function Navbar() {
          <a href="/"><VscMenu className="text-xl" /></a>
          </div>
 
-        <div className="relative w-24 h-8 ml-6">
+        <div className="relative w-24 h-8 ml-6 md:32">
             <a href="/"><img className="relative top-4" src={Logo} alt="logo"/></a>
        </div>
 
          <div className="ml-48 top-0 w-1/2 left-8 relative">
-              <input className="bg-grey-lightest border-2 focus:border-orange p-2 rounded-lg shadow-inner w-full relative top-2 focus:outline-none" type="text" placeholder="Search" />
+              <input className="bg-grey-lightest hidden border-2 focus:border-orange p-2 rounded-lg shadow-inner w-full relative top-2 focus:outline-none md:block" type="text" placeholder="Search" />
          </div>
                
           <div className="flex absolute right-28 top-5">
-            <a href="/"><MdVideoCall className="w-8 h-6 text-gray-600" /></a>
+            <a href="/"><MdVideoCall className="w-8 h-6 text-gray-600 hidden md:block" /></a>
             <a href="/"><MdApps className="w-8 h-6 ml-6 text-gray-600" /></a>
             <a href="/"><BsFillBellFill className="w-8 h-5 relative top-0.5 ml-6 text-gray-600" /></a>
             </div>
